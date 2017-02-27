@@ -1,6 +1,5 @@
-import chai from 'chai'
+import test from 'ava'
 
-const should = chai.should()
-
-describe('#docker', function () {
+test('main test', t => {
+  t.is(true, true)
 })
